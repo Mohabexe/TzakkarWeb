@@ -881,6 +881,14 @@ video {
     border-radius: 0.75rem;
   }
 
+  .lg\:bg-\[url\(\'\.\/images\/islamicWallpaper\.png\'\)\]{
+    background-image: url('./images/islamicWallpaper.png');
+  }
+
+  .lg\:bg-cover{
+    background-size: cover;
+  }
+
   .lg\:pt-5{
     padding-top: 1.25rem;
   }
