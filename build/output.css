@@ -562,10 +562,6 @@ video {
   position: absolute;
 }
 
-.ml-2{
-  margin-left: 0.5rem;
-}
-
 .ml-40{
   margin-left: 10rem;
 }
@@ -715,7 +711,7 @@ video {
 
   @keyframes left{
     0%{
-      transform: translateX(-300%);
+      transform: translateX(-30%);
       opacity: 0;
     }
 
