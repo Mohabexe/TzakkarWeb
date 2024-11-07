@@ -618,6 +618,10 @@ video {
   height: 1.2em;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .w-24{
   width: 6rem;
 }
