@@ -566,8 +566,16 @@ video {
   margin-left: 10rem;
 }
 
+.mt-20{
+  margin-top: 5rem;
+}
+
 .h-screen{
   height: 100vh;
+}
+
+.w-4\/5{
+  width: 80%;
 }
 
 @keyframes scroll{
@@ -602,6 +610,24 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.border-4{
+  border-width: 4px;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-red-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(153 27 27 / var(--tw-border-opacity));
+}
+
+.border-red-900{
+  --tw-border-opacity: 1;
+  border-color: rgb(127 29 29 / var(--tw-border-opacity));
 }
 
 .bg-\[\#04B045\]{
@@ -673,12 +699,44 @@ video {
     margin-top: 2.5rem;
   }
 
+  .lg\:mt-40{
+    margin-top: 10rem;
+  }
+
+  .lg\:mt-5{
+    margin-top: 1.25rem;
+  }
+
   .lg\:mt-24{
     margin-top: 6rem;
   }
 
-  .lg\:mt-40{
-    margin-top: 10rem;
+  .lg\:mr-16{
+    margin-right: 4rem;
+  }
+
+  .lg\:-mr-16{
+    margin-right: -4rem;
+  }
+
+  .lg\:ml-16{
+    margin-left: 4rem;
+  }
+
+  .lg\:ml-auto{
+    margin-left: auto;
+  }
+
+  .lg\:ml-0{
+    margin-left: 0px;
+  }
+
+  .lg\:mt-60{
+    margin-top: 15rem;
+  }
+
+  .lg\:mt-52{
+    margin-top: 13rem;
   }
 
   .lg\:flex{
@@ -701,12 +759,28 @@ video {
     width: 8rem;
   }
 
+  .lg\:w-5\/6{
+    width: 83.333333%;
+  }
+
   .lg\:w-4\/6{
     width: 66.666667%;
   }
 
-  .lg\:w-5\/6{
-    width: 83.333333%;
+  .lg\:w-1\/2{
+    width: 50%;
+  }
+
+  .lg\:w-3\/4{
+    width: 75%;
+  }
+
+  .lg\:w-2{
+    width: 0.5rem;
+  }
+
+  .lg\:w-2\/3{
+    width: 66.666667%;
   }
 
   @keyframes left{
@@ -769,14 +843,28 @@ video {
     vertical-align: middle;
   }
 
+  .lg\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
 
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:font-bold{
+    font-weight: 700;
   }
 
   .lg\:leading-\[1\.2em\]{
@@ -786,6 +874,11 @@ video {
   .lg\:text-green-50{
     --tw-text-opacity: 1;
     color: rgb(240 253 244 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .lg\:transition{
