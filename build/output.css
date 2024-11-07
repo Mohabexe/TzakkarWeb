@@ -562,80 +562,12 @@ video {
   position: absolute;
 }
 
-.relative{
-  position: relative;
-}
-
-.mx-3{
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-auto{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.my-7{
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
-.my-auto{
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .ml-40{
   margin-left: 10rem;
 }
 
-.mt-1{
-  margin-top: 0.25rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-24{
-  margin-top: 6rem;
-}
-
-.mt-40{
-  margin-top: 10rem;
-}
-
-.flex{
-  display: flex;
-}
-
-.h-24{
-  height: 6rem;
-}
-
-.h-\[1\.2em\]{
-  height: 1.2em;
-}
-
 .h-screen{
   height: 100vh;
-}
-
-.w-24{
-  width: 6rem;
-}
-
-.w-32{
-  width: 8rem;
-}
-
-.w-4\/6{
-  width: 66.666667%;
-}
-
-.w-5\/6{
-  width: 83.333333%;
 }
 
 @keyframes scroll{
@@ -668,18 +600,6 @@ video {
   list-style-type: disc;
 }
 
-.justify-between{
-  justify-content: space-between;
-}
-
-.overflow-hidden{
-  overflow: hidden;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
 .rounded-xl{
   border-radius: 0.75rem;
 }
@@ -689,60 +609,17 @@ video {
   background-color: rgb(4 176 69 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/images\/islamicWallpaper\.png\'\)\]{
-  background-image: url('./images/islamicWallpaper.png');
-}
-
-.bg-cover{
-  background-size: cover;
-}
-
-.pt-5{
-  padding-top: 1.25rem;
-}
-
 .text-left{
   text-align: left;
-}
-
-.align-middle{
-  vertical-align: middle;
 }
 
 .font-Poppins{
   font-family: Poppins;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.leading-\[1\.2em\]{
-  line-height: 1.2em;
-}
-
-.text-green-50{
-  --tw-text-opacity: 1;
-  color: rgb(240 253 244 / var(--tw-text-opacity));
-}
-
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 @keyframes enter{
@@ -759,34 +636,9 @@ video {
   }
 }
 
-.hover\:scale-105:hover{
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:text-black:hover{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 @media (min-width: 1024px){
-  .lg\:absolute{
-    position: absolute;
-  }
-
   .lg\:relative{
     position: relative;
-  }
-
-  .lg\:mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .lg\:my-auto{
-    margin-top: auto;
-    margin-bottom: auto;
   }
 
   .lg\:mx-3{
@@ -794,21 +646,19 @@ video {
     margin-right: 0.75rem;
   }
 
+  .lg\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:my-7{
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
   }
 
-  .lg\:mt-40{
-    margin-top: 10rem;
-  }
-
-  .lg\:mt-24{
-    margin-top: 6rem;
-  }
-
-  .lg\:mt-10{
-    margin-top: 2.5rem;
+  .lg\:my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .lg\:ml-40{
@@ -817,6 +667,18 @@ video {
 
   .lg\:mt-1{
     margin-top: 0.25rem;
+  }
+
+  .lg\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-40{
+    margin-top: 10rem;
   }
 
   .lg\:flex{
@@ -831,10 +693,6 @@ video {
     height: 1.2em;
   }
 
-  .lg\:w-5\/6{
-    width: 83.333333%;
-  }
-
   .lg\:w-24{
     width: 6rem;
   }
@@ -847,30 +705,8 @@ video {
     width: 66.666667%;
   }
 
-  @keyframes scroll{
-    0%{
-      top: 0;
-    }
-
-    25%{
-      top: -1.2em;
-    }
-
-    50%{
-      top: -2.4em;
-    }
-
-    75%{
-      top: -3.6em;
-    }
-
-    100%{
-      top: 0;
-    }
-  }
-
-  .lg\:animate-scroll{
-    animation: scroll 7s infinite;
+  .lg\:w-5\/6{
+    width: 83.333333%;
   }
 
   .lg\:justify-between{
@@ -897,10 +733,6 @@ video {
     padding-top: 1.25rem;
   }
 
-  .lg\:text-left{
-    text-align: left;
-  }
-
   .lg\:align-middle{
     vertical-align: middle;
   }
@@ -917,11 +749,6 @@ video {
 
   .lg\:leading-\[1\.2em\]{
     line-height: 1.2em;
-  }
-
-  .lg\:text-white{
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .lg\:text-green-50{
