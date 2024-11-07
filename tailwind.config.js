@@ -18,7 +18,7 @@ module.exports = {
           "100%": { top: "0" },
         },
         left: {
-          "0%": { transform: "translateX(-300%)", opacity: 0 },
+          "0%": { transform: "translateX(-30%)", opacity: 0 },
           "100%": { transform: "translateX(0)", opacity: 1 },
         },
         right: {
